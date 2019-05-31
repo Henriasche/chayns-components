@@ -28,6 +28,7 @@ const ExpandableListItem = ({ children, ...props }) => {
             clickable
             openProp={open}
             style={style}
+            {...props}
         >
             {children}
         </AbstractExpandableListItem>
